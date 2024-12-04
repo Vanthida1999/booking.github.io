@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0faff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      border-radius: 30px;
+      padding: 30px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 500px;
+      text-align: center;
+    }
+
+    .container h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #33722a;
+    }
+
+    .input-field {
+      width: 85%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #24b35b;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+
+    .input-field:focus {
+      outline: none;
+      border-color: #00cc4e;
+    }
+
+    .btn {
+      width: 95%;
+      padding: 10px;
+      background-color: #00cc55;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #00b536;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Log In</h2>
+    <p>Welcome to car booking</p>
+    <form>
+      <input type="name" class="input-field" placeholder="Name" required>
+      <input type="phone number" class="input-field" placeholder="Phone Number" required>
+    <input type="password" class="input-field" placeholder="Password" required>
+      <button type="submit" class="btn">Submit</button>
+  </div>
+
+</body>
+</html>
